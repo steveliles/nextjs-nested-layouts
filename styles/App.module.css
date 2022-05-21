@@ -1,0 +1,39 @@
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.main > header {
+  height: 100px;
+  padding: 10px;
+  background-color: yellow;
+}
+
+.main h1 {
+  margin: 0;
+}
+
+.main > section {
+  flex: 1;
+  display: flex;
+  overflow-y: auto;
+}
+
+.main > footer {
+  height: 50px;
+  padding: 10px;
+  background-color: yellow;
+}
+
+.main nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+}
+
+.main nav li {
+  margin-right: 20px;
+}

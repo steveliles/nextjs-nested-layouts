@@ -1,0 +1,20 @@
+.teams {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.teams h2 {
+  margin: 0;
+}
+
+.teams .sidebar {
+  background-color: green;
+  padding: 20px;
+}
+
+.teams .content {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+}
